@@ -1,0 +1,79 @@
+[
+  {
+    "item_id": "paper_regime_transformers",
+    "title": "Regime-Aware Volatility Forecasting with Transformers",
+    "description": "A research paper on transformer forecasts that account for market regime changes.",
+    "category": "volatility",
+    "tags": ["transformers", "regime-detection", "forecasting"],
+    "placements": ["homepage", "research"],
+    "locales": ["en-US", "en-GB"],
+    "tenants": ["*"],
+    "available": true
+  },
+  {
+    "item_id": "paper_timeseries_features",
+    "title": "Python Time-Series Feature Engineering",
+    "description": "Practical lag, rolling-window, and calendar features for Python forecasting models.",
+    "category": "time-series",
+    "tags": ["python", "feature-engineering", "forecasting"],
+    "placements": ["homepage", "research"],
+    "locales": ["en-US", "en-GB"],
+    "tenants": ["*"],
+    "available": true
+  },
+  {
+    "item_id": "paper_volatility_surface",
+    "title": "Robust Volatility Surface Calibration",
+    "description": "Calibration diagnostics and regularization for options volatility surfaces.",
+    "category": "volatility",
+    "tags": ["options", "calibration", "risk"],
+    "placements": ["homepage", "research"],
+    "locales": ["en-US"],
+    "tenants": ["*"],
+    "available": true
+  },
+  {
+    "item_id": "strategy_momentum",
+    "title": "Cross-Asset Momentum Research Template",
+    "description": "A reproducible template for testing momentum signals across liquid assets.",
+    "category": "strategies",
+    "tags": ["momentum", "backtesting", "portfolio"],
+    "placements": ["homepage"],
+    "locales": ["en-US"],
+    "tenants": ["*"],
+    "available": true
+  },
+  {
+    "item_id": "paper_risk_parity",
+    "title": "Risk Parity Under Correlation Stress",
+    "description": "Studies robust portfolio allocation when correlations change abruptly.",
+    "category": "portfolio",
+    "tags": ["risk", "correlation", "allocation"],
+    "placements": ["homepage", "research"],
+    "locales": ["en-US", "en-GB"],
+    "tenants": ["*"],
+    "available": true
+  },
+  {
+    "item_id": "guide_sql_basics",
+    "title": "Introductory SQL for Analysts",
+    "description": "A beginner guide to selecting and aggregating tabular data.",
+    "category": "tutorials",
+    "tags": ["sql", "beginner"],
+    "placements": ["homepage"],
+    "locales": ["en-US"],
+    "tenants": ["*"],
+    "available": false
+  },
+  {
+    "item_id": "paper_market_microstructure",
+    "title": "Market Microstructure and Execution Costs",
+    "description": "Models spread, impact, and execution quality for systematic trading.",
+    "category": "execution",
+    "tags": ["microstructure", "transaction-costs", "trading"],
+    "placements": ["research"],
+    "locales": ["en-US"],
+    "tenants": ["*"],
+    "available": true
+  }
+]

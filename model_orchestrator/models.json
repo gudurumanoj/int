@@ -1,0 +1,44 @@
+{
+  "version": "demo-1",
+  "models": [
+    {
+      "id": "fast",
+      "base_url": "https://fast.example.invalid/v1",
+      "api_key_env": "MODEL_FAST_API_KEY",
+      "upstream_model": "provider-fast-model",
+      "capabilities": ["chat", "extraction", "code"],
+      "quality_tier": "low",
+      "p99_latency_ms": 250,
+      "input_price_per_1k_tokens": 0.0002,
+      "output_price_per_1k_tokens": 0.0008,
+      "health": "healthy",
+      "quality_gate": "json_valid"
+    },
+    {
+      "id": "balanced",
+      "base_url": "https://balanced.example.invalid/v1",
+      "api_key_env": "MODEL_BALANCED_API_KEY",
+      "upstream_model": "provider-balanced-model",
+      "capabilities": ["chat", "reasoning", "extraction", "code"],
+      "quality_tier": "balanced",
+      "p99_latency_ms": 600,
+      "input_price_per_1k_tokens": 0.001,
+      "output_price_per_1k_tokens": 0.003,
+      "health": "healthy",
+      "quality_gate": "json_valid"
+    },
+    {
+      "id": "quality",
+      "base_url": "https://quality.example.invalid/v1",
+      "api_key_env": "MODEL_QUALITY_API_KEY",
+      "upstream_model": "provider-quality-model",
+      "capabilities": ["chat", "reasoning", "extraction", "code"],
+      "quality_tier": "high",
+      "p99_latency_ms": 1000,
+      "input_price_per_1k_tokens": 0.004,
+      "output_price_per_1k_tokens": 0.012,
+      "health": "healthy",
+      "quality_gate": "json_valid"
+    }
+  ]
+}
